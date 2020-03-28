@@ -21,6 +21,7 @@
 
         document.getElementById('first').addEventListener('click', function(event){
             console.log("First Item clicked");
+            event.stopPropagation();
         })
                 
         document.getElementById('container').addEventListener('click',function(event){
